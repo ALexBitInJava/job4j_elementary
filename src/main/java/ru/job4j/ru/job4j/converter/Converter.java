@@ -32,5 +32,6 @@ public class Converter {
         float out2 = Converter.rubleToDollar(valueRub2);
         boolean passed2 = expected2 == out2;
         System.out.println(String.format(Locale.ROOT, "%.0f rubles are %.1f. Test result : %b", in2, expected2, passed2));
+    //...
     }
 }
