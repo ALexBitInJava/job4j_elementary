@@ -21,9 +21,12 @@ public class Calculator {
         Calculator.plus(100, 500);
         Calculator.plus(4, 2);
         Calculator.plus(3, 5);
+        int count = Calculator.plus(1, 2);
     }
 
-    public static void plus(int first, int second) {
+    public static int plus(int first, int second) {
         int result = first + second;
+        return result;
     }
+
 }
