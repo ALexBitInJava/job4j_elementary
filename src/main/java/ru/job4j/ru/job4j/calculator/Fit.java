@@ -19,3 +19,5 @@ public class Fit {
         System.out.println("Man 187 is " + roundMan);
     }
 }
+//проверка работы сервиса контроля версиями
+//18:18
