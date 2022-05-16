@@ -11,8 +11,6 @@ public class Greeting {
         Date date = new Date();
         SimpleDateFormat dateYear = new SimpleDateFormat("yyyy");
         String test = dateYear.format(date);
-        // int year = Integer.parseInt(test.toString());
-        // System.out.println(year);
         idea += test;
         System.out.println(idea);
     }
