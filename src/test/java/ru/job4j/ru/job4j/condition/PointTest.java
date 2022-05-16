@@ -2,10 +2,7 @@ package ru.job4j.ru.job4j.condition;
 
 import org.junit.Assert;
 import org.junit.Test;
-
-import java.util.ArrayList;
-
-import static org.junit.Assert.*;
+import ru.job4j.condition.Point;
 
 public class PointTest {
 

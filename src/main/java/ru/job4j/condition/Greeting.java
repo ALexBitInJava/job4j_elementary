@@ -1,4 +1,4 @@
-package ru.job4j.ru.job4j.condition;
+package ru.job4j.condition;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
