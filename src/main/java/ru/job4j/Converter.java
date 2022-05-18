@@ -17,7 +17,7 @@ public class Converter {
         System.out.println("140 rubles are " + euro + " euro.");
 
         float in = valueRub;
-        float expected = valueRub / 70;
+        float expected = 2;
         float out = Converter.rubleToEuro(valueRub);
         boolean passed = expected == out;
         System.out.println(String.format(Locale.ROOT, "%.0f rubles are %.1f. Test result : %b", in, expected, passed));
@@ -27,7 +27,7 @@ public class Converter {
         System.out.println("180 rubles are " + dollar + " dollar.");
 
         float in2 = valueRub2;
-        float expected2 = valueRub2 / 60;
+        float expected2 = 3;
         float out2 = Converter.rubleToDollar(valueRub2);
         boolean passed2 = expected2 == out2;
         System.out.println(String.format(Locale.ROOT, "%.0f rubles are %.1f. Test result : %b", in2, expected2, passed2));
