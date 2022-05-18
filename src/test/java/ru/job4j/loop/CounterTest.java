@@ -24,7 +24,6 @@ public class CounterTest {
         Assert.assertEquals(expected, result);
     }
 
-
     @Test
     public void whenSumEvenNumbersFromOneToTenThen28() {
         int start = 4;
