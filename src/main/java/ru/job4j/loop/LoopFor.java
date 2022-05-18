@@ -6,9 +6,6 @@ public class LoopFor {
         boolean result = true;
         for (i = 5; i <= 10; i++) {
             System.out.println(i);
-            result = false;
         }
-        System.out.println("Индекс после цикла равен: " + i);
-        System.out.println("Условие выполнения цикла равно: " + result);
     }
 }
