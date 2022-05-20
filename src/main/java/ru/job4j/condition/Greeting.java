@@ -4,6 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Greeting {
+
     public static void main(String[] args) {
         String idea = "I like Java!";
         System.out.println(idea);
