@@ -15,5 +15,4 @@ public class Fit {
         String roundMan = String.format("%.2f", man);
         System.out.println("Man 187 is " + roundMan);
     }
-
 }
