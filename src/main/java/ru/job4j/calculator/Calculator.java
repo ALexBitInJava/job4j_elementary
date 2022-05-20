@@ -18,15 +18,13 @@ public class Calculator {
         System.out.println(fourTimeTwo);
         six -= 5;
         System.out.println(six);
-        Calculator.plus(100, 500);
-        Calculator.plus(4, 2);
-        Calculator.plus(3, 5);
-        int count = Calculator.plus(1, 2);
+        System.out.println(plus(100, 500));
+        System.out.println(plus(4, 2));
+        System.out.println(plus(3, 5));
+        int count = plus(1, 2);
     }
 
     public static int plus(int first, int second) {
-        int result = first + second;
-        return result;
+        return first + second;
     }
-
 }
