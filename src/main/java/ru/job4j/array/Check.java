@@ -3,12 +3,12 @@ package ru.job4j.array;
 public class Check {
     public static boolean mono(boolean[] data) {
         boolean result = true;
-        int count = 0;
-        for (boolean datum : data) {
-            if (data[0] == datum) {
-                count++;
+        for (int i = 1; i < data.length; i++) {
+            if (!(data[0] == data[i])) {
+                result = false;
+                break;
             }
         }
-        return count == data.length;
+        return result;
     }
 }
