@@ -9,11 +9,4 @@ public class SortSelected {
         }
         return data;
     }
-
-//    public static void main(String[] args) {
-//        int[] data = new int[] {3, 4, 1, 2, 5};
-//        int min = MinDiapason.findMin(data, 0, data.length - 1);
-//        System.out.println(min);
-//        System.out.println(FindLoop.indexInRange(data, min, 0+1, data.length - 1));
-//    }
 }
