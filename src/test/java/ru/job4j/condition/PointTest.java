@@ -45,4 +45,14 @@ public class PointTest {
         float eps = 0.01f;
         Assert.assertEquals(expected, out, eps);
     }
+
+    @Test
+    public void when333to121then3() {
+        Point a = new Point(3, 3, 3);
+        Point b = new Point(1, 2, 1);
+        double expected = 3.0;
+        double out = a.distance3d(b);
+        float eps = 0.01f;
+        Assert.assertEquals(expected, out, eps);
+    }
 }
